@@ -1,0 +1,223 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Add your custom styles here */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000000;
+    color: #cecccc;
+    margin-bottom: 10px;
+}
+
+header {
+    background-color: #1d1d1d;
+    font-size: 1.2rem;
+    color: #f09620;
+    padding: 30px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: medium;
+    color: #cbcbcb;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* ... previous CSS code ... */
+
+.about-section {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #1d1d1d;
+    padding: 80px 0;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.about-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-text h2 {
+    color: #cbcbcb;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #cbcbcb;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    margin-right: 20px;
+    background-color: #000000;
+}
+
+
+
+.social-icons {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+
+    font-size: 24px;
+    color: #cbcbcb;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.social-icon:last-child {
+    margin-right: 0;
+
+}
+
+.social-icon:hover {
+    color: #ffffff;
+    font-size: 2rem;
+
+}
+
+.projects-section {
+    color: #ddd;
+}
+
+
+.project-cards {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    max-width: 1000px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: #cbcbcb;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    padding-bottom: 40px;
+
+}
+
+.project-card:hover {
+    background-color: #ffffff;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.client-reviews {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2px;
+    margin-top: 70px;
+}
+
+
+
+.client-review {
+    margin-top: 20px;
+    max-width: 250px;
+    height: 220px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 2px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+    justify-content: center;
+}
+
+.client-review img {
+    max-width: 70px;
+    border-radius: 20%;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    margin-bottom: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    margin-bottom: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
