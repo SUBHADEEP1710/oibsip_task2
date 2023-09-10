@@ -1,11 +1,11 @@
-/* Reset some default styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Add your custom styles here */
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #000000;
@@ -60,7 +60,7 @@ section {
     text-align: center;
 }
 
-/* ... previous CSS code ... */
+
 
 .about-section {
     margin-top: 100px;
